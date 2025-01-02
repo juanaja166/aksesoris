@@ -1,0 +1,153 @@
+/* Reset Margin dan Padding */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+/* Latar Belakang */
+body {
+  background-image: url(https://i.pinimg.com/736x/3a/e0/e0/3ae0e03c55af77c54b9bb5694917a21e.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Wrapper Utama */
+#divWrapper {
+  width: 700px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1); /* transparan */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Header */
+#divHeader {
+  background: linear-gradient(#e192d4, #fcd9f0); /* gradasi oranye cerah */
+  font-size: 50px;
+  font-family: "Fantasy";
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Garis Pembatas */
+#divLine {
+  height: 2px;
+  background-color: #fcd9f0; /* pink cerah */
+  margin: 0;
+}
+
+/* Navigasi */
+#divLinks {
+  background: linear-gradient(#fcd9f0, #e192d4); /* gradasi biru ke pink cerah */
+  padding: 10px 0;
+}
+
+#divNav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+#divNav ul li {
+  display: inline-block;
+}
+
+#divNav ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ef72d0; /* pink cerah */
+  color: white;
+  font-size: 1.5em;
+  font-family: monospace;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ef72d0; /* oranye cerah */
+  transition: background-image 0.3s ease;
+}
+
+#divNav ul li a:hover {
+  background: linear-gradient(#ff9a3a, #ff6f61); /* gradasi oranye ke pink */
+}
+
+/* Konten */
+#divKonten {
+  background: rgba(255, 255, 255, 0.8); /* transparan putih */
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  color: #333;
+}
+
+#divKontentabel {
+  background: rgba(243, 188, 217, 0.575); /* abu-abu terang transparan */
+  padding: 20px 50px;
+  border-radius: 5px;
+  min-height: 400px;
+}
+
+/* Form Input */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ff3ac1; /* oranye cerah */
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Tombol Submit */
+input[type="submit"] {
+  width: 100%;
+  padding: 20px;
+  background: #f46796; /* biru cerah */
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #fbc8ee; /* pink terang */
+}
+
+/* Footer */
+#divFooter {
+  background-color: #fbc8ee; /* oranye terang */
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Dekorasi Tambahan */
+.form-container .icon-music {
+  font-size: 50px;
+  color: #ff006e; /* pink cerah */
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.form-container p {
+  font-size: 18px;
+  color: #6c757d; /* abu-abu gelap */
+  text-align: center;
+}
